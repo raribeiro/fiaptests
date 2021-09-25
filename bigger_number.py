@@ -6,5 +6,5 @@ if a > b and a > c:
 	print('The number one is bigger')
 elif b > a and b > c:
 	print('The number two is bigger')
-elif c > b and c > a:
+else:
 	print('The number three is bigger')
