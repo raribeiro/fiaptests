@@ -1,7 +1,7 @@
-print('Simple calc of IMC \n')
+print('Calculadora simples de IMC \n')
 
-height = float(input('Define your height \n'))
-weight = float(input('Define your wight \n'))
+height = float(input('Informe sua altura: \n'))
+weight = float(input('Informe seu peso: \n'))
 
 
 imcResult = weight / (height * height)
