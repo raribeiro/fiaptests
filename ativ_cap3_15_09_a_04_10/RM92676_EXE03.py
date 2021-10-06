@@ -4,7 +4,6 @@ startTwo = 1
 currentNumber = 0
 successOperation = 0
 
-
 for x in range(number):
 	currentNumber = startOne + startTwo
 	startOne = startTwo
@@ -16,6 +15,4 @@ for x in range(number):
 if successOperation == 1:
 	print('Ação foi bem sucedida')
 else:
-	print('Ação foi mal sucedida')
-		
-	
+	print('Ação foi mal sucedida')	
